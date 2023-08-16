@@ -23,6 +23,3 @@ def predict(wine: Wine):
     np_batches = np.array(batches)
     pred = clf.predict(np_batches).tolist()
     return {"Prediction": pred}
-
-
-# Where banana
